@@ -1,0 +1,36 @@
+{
+  "name": "slidev-theme-zhozhoba",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "description": "Zhozhoba theme for Slidev",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thatoranzhevyy/slidev-theme-zhozhoba.git"
+  },
+  "bugs": "https://github.com/thatoranzhevyy/slidev-theme-zhozhoba/issues",
+  "author": "Bogenbai Bayzharassov <thatoranzhevyy@gmail.com>",
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "all"
+  },
+  "scripts": {
+    "dev": "slidev example.md --open",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.7.4",
+    "@slidev/theme-default": "^0.7.2"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.11.0"
+  }
+}
